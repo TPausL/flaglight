@@ -4,7 +4,7 @@ Script which fetches country flags for given country codes from _www.countryflag
 
 ## Usage
 ```shell
-pip install json requests matplotlib Pillow
+pip install requests matplotlib Pillow
 # for single flag
 python main.py country_code
 # for two flags
