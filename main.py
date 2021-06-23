@@ -60,7 +60,7 @@ if len(sys.argv) == 2:
             print(r.json()["object"]["light"]["name"] +
                   ": " + "Succesfully applied flag!")
         else:
-            print(r.json()["message"])
+            print(l["name"] + ": " +  r.json()["message"])
 
 elif len(sys.argv) == 3:
     downloadImage(sys.argv[1], "first.png")
@@ -79,8 +79,7 @@ elif len(sys.argv) == 3:
             print(r.json()["object"]["light"]["name"] +
                   ": " + "Succesfully applied flags!")
         else:
-            c
-            print(r.json()["message"])
+            print(l["name"] + ": " +  r.json()["message"])
 
 
 else:
